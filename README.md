@@ -6,10 +6,10 @@
 - File System
 - Linq
 
-## Screenshots
+## Screenshots./Screenshots/
 <img src="./Screenshots/Screenshot (5).png" />
-<img src="Screenshot (6).png" />
-<img src="Screenshot (7).png" />
-<img src="Screenshot (8).png" />
-<img src="Screenshot (9).png" />
+<img src="./Screenshots/Screenshot (6).png" />
+<img src="./Screenshots/Screenshot (7).png" />
+<img src="./Screenshots/Screenshot (8).png" />
+<img src="./Screenshots/Screenshot (9).png" />
 

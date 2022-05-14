@@ -10,6 +10,7 @@ namespace BusinessLayer
     public class GenerateValues
     {
         public Storage storage = new Storage();
+        List<string> result = new List<string>();
 
         // generate age not working
         public int GenerateAge(long idNumber)
@@ -29,15 +30,18 @@ namespace BusinessLayer
             return $"{name}{surname}@uj.ac.za";
         }
 
-        public void DisplayData()
+        public List<string> DisplayData()
         {
             var list = storage.ReadData();
             var StaffInfo = from element in list
                             orderby element.Age
                             select element;
 
-            foreach(var element in StaffInfo)
-                Console.WriteLine($"{element.FirstName} {element.LastName} {element.Email} {element.Age}");
+            foreach (var element in StaffInfo)
+            {
+                result.Add($"{element.FirstName} {element.LastName} {element.Email} {element.Age}");
+            }
+            return result;
         }
     }
 }

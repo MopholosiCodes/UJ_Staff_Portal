@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{3A5E9481-81C9-42E5-AD64-E0C1E8AB6A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{D45D0DDC-6F0A-4446-ACAE-4E0C68FD247A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFClient", "DesktopClient\WPFClient.csproj", "{8BE813E7-0157-4B39-938C-CE85D9A7DC81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{3A5E9481-81C9-42E5-AD64-E0C1E8AB6A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A5E9481-81C9-42E5-AD64-E0C1E8AB6A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A5E9481-81C9-42E5-AD64-E0C1E8AB6A00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D45D0DDC-6F0A-4446-ACAE-4E0C68FD247A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D45D0DDC-6F0A-4446-ACAE-4E0C68FD247A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D45D0DDC-6F0A-4446-ACAE-4E0C68FD247A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D45D0DDC-6F0A-4446-ACAE-4E0C68FD247A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE813E7-0157-4B39-938C-CE85D9A7DC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE813E7-0157-4B39-938C-CE85D9A7DC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE813E7-0157-4B39-938C-CE85D9A7DC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE813E7-0157-4B39-938C-CE85D9A7DC81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

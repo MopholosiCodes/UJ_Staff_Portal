@@ -1,7 +1,8 @@
 # UJ_Staff_Portal
 ## Technologies Used
 
-- C#.NET Framework
+- WPF(.NET Framework)
 - 3-Tier Architecture
+- File System
 - Linq
 

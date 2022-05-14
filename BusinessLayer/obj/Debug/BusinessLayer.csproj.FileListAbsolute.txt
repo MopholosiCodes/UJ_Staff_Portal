@@ -1,0 +1,9 @@
+C:\Users\tamon\source\repos\UJ_Staff_Portal\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\tamon\source\repos\UJ_Staff_Portal\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\tamon\source\repos\UJ_Staff_Portal\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\tamon\source\repos\UJ_Staff_Portal\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\tamon\source\repos\UJ_Staff_Portal\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\tamon\source\repos\UJ_Staff_Portal\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\tamon\source\repos\UJ_Staff_Portal\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\tamon\source\repos\UJ_Staff_Portal\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\tamon\source\repos\UJ_Staff_Portal\BusinessLayer\obj\Debug\BusinessLayer.pdb

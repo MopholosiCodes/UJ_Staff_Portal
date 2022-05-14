@@ -1,5 +1,0 @@
-C:\Users\General\source\repos\UJ_Staff_Portal\UJ_Staff_Portal\obj\Debug\Presentation_Layer.csprojAssemblyReference.cache
-C:\Users\General\source\repos\UJ_Staff_Portal\UJ_Staff_Portal\obj\Debug\UJ_Staff_Portal.Form1.resources
-C:\Users\General\source\repos\UJ_Staff_Portal\UJ_Staff_Portal\obj\Debug\UJ_Staff_Portal.Properties.Resources.resources
-C:\Users\General\source\repos\UJ_Staff_Portal\UJ_Staff_Portal\obj\Debug\Presentation_Layer.csproj.GenerateResource.cache
-C:\Users\General\source\repos\UJ_Staff_Portal\UJ_Staff_Portal\obj\Debug\Presentation_Layer.csproj.CoreCompileInputs.cache

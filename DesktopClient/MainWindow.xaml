@@ -22,8 +22,8 @@
         <Label Content="Age" HorizontalAlignment="Left" Margin="118,285,0,0" VerticalAlignment="Top"/>
         <Label Content="Name" HorizontalAlignment="Left" Margin="118,180,0,0" VerticalAlignment="Top"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="118,259,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,1.013"/>
-        <Label x:Name="AgeField" Content="" HorizontalAlignment="Left" Margin="218,285,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="EmailField" Content="" HorizontalAlignment="Left" Margin="218,259,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="AgeField" Content="" HorizontalAlignment="Left" Margin="197,285,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.167,0.449"/>
+        <Label x:Name="EmailField" Content="" HorizontalAlignment="Left" Margin="187,261,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.033,0.577"/>
         <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Left" Margin="347,183,0,0" VerticalAlignment="Top" Width="75" Click="SaveButton_Click"/>
         <Button x:Name="DisplayButton" Content="Display" HorizontalAlignment="Left" Margin="347,214,0,0" VerticalAlignment="Top" Width="75" Click="DisplayButton_Click"/>
         <Button x:Name="ClearButton" Content="Clear" HorizontalAlignment="Left" Margin="347,244,0,0" VerticalAlignment="Top" Width="75" Click="ClearButton_Click"/>

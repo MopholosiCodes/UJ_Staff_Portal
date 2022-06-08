@@ -4,6 +4,8 @@
 - WPF (.NET Framework)
 - 3-Tier Architecture
 - File System
+- MySql
+- Xamp
 - Linq
 
 ## Screenshots./Screenshots/

@@ -9,7 +9,8 @@ namespace BusinessLayer
 {
     public class GenerateValues
     {
-        public Storage storage = new Storage();
+        public FileStorage storage = new FileStorage();
+        public DatabaseStorage dbStorage = new DatabaseStorage();
         List<string> result = new List<string>();
 
         // generate age not working
@@ -30,6 +31,7 @@ namespace BusinessLayer
             return $"{name}{surname}@uj.ac.za";
         }
 
+        // File system
         public List<string> DisplayData()
         {
             var list = storage.ReadData();
@@ -42,6 +44,29 @@ namespace BusinessLayer
                 result.Add($"{element.FirstName} {element.LastName} {element.Email} {element.Age}");
             }
             return result;
+        }
+
+        // Database
+        public List<StaffMember> DisplayListFromDB()
+        {
+            var list = dbStorage.ReadData();
+            List<StaffMember> resultList = new List<StaffMember>();
+
+            var staffInfo = from element in list
+                            orderby element.Age
+                            select element;
+
+            foreach (var element in staffInfo)
+            {
+                resultList.Add(new StaffMember{
+                    FirstName = element.FirstName,
+                    LastName = element.LastName,
+                    Email = element.Email,
+                    Age = element.Age
+                });
+            }
+
+            return resultList;
         }
     }
 }

@@ -7,7 +7,7 @@ using System.IO;
 
 namespace DataLayer
 {
-    public class Storage
+    public class FileStorage
     {
         private string filePath = "StaffMembers.txt";
         public List<StaffMember> staffMembers = new List<StaffMember>();

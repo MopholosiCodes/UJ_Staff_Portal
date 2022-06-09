@@ -23,7 +23,8 @@ namespace DesktopClient
     public partial class MainWindow : Window
     {
         private GenerateValues generate = new GenerateValues();
-        private Storage storage = new Storage();
+        private FileStorage storage = new FileStorage();
+        private DatabaseStorage dbStorage = new DatabaseStorage();
         StringBuilder result = new StringBuilder();
 
         public MainWindow()
@@ -49,17 +50,31 @@ namespace DesktopClient
                 generate.GenerateEmail(NameField.Text,SurnameField.Text),
                 generate.GenerateAge(Convert.ToInt64(IDField.Text))
             );
+            dbStorage.StoreData(
+                 NameField.Text,
+                SurnameField.Text,
+                generate.GenerateEmail(NameField.Text, SurnameField.Text),
+                generate.GenerateAge(Convert.ToInt64(IDField.Text))
+            );
             MessageBox.Show("Saved successfully");
             clearForm();
         }
 
         private void DisplayButton_Click(object sender, RoutedEventArgs e)
         {
-            var list = generate.DisplayData();
+            /*var list = generate.DisplayData();
   
             foreach(string row in list)
             {
                 result.Append($"{row}\n");
+            }
+            DisplayProfilesTextbox.Text = result.ToString*/
+
+            var dbList = generate.DisplayListFromDB();
+
+            foreach(var element in dbList)
+            {
+                result.Append($"{element.FirstName} {element.LastName} {element.Email} {element.Age}");
             }
             DisplayProfilesTextbox.Text = result.ToString();
         }
